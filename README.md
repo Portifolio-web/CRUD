@@ -7,9 +7,8 @@
  -->
 CRUD - CREATE READ UPDATE DELETE
 
-Aqui vai um sistema de CRUD que é um simples sistama de cadastro, leitura editar e deletar.
+Aqui vai um sistema de CRUD que é um simples sistema de cadastro, leitura editar e deletar.
 
 O objetivo principal desse projeto é colocar em prática minha pouca habilidade como programador iniciante.
 
-Nesse projeto tenho a intenção de dar mais funcionalidades a ele, como fosse um sistema de estoque, e ao poucos estarei implementando
-funcionalidades novas nele, com a intenção de ficar parecido com um projeto real.
+Nesse projeto tenho a intenção de dar mais funcionalidades a ele, como fosse um sistema de estoque, e aos poucos implementarei funcionalidades novas nele, com a intenção de ficar parecido com um projeto cada vez mais real.

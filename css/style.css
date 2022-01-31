@@ -1,0 +1,278 @@
+*{padding:0; margin: 0; list-style: none; text-decoration: none; font-family: 'Lato', sans-serif;}
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;1,300;1,400&display=swap');
+
+
+body {
+    background-color: #666b6869;
+    height: 100vmax;
+}
+
+body > h1 {
+    padding: 30px;
+    text-align: center;
+    color: #353D40;
+}
+
+/* páginas de cadastros de produtos do sistemas */
+.section_add_user {
+    padding: 10px;
+    width: 1200px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto;
+    /* background-color: #ccc; */
+}
+
+.section_add_user > h3 {
+    width: 600px;
+    max-width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    padding: 15px 10px;
+    background-color: #003F63;
+    color: #D9D9D9;
+    border-radius: 3px 3px 0 0;
+}
+
+.section_add_user > form {
+    margin: 0 auto;
+    width: 600px;
+    max-width: 100%;
+    background-color: #D9D9D9;
+    padding: 15px 10px;
+    border-radius: 0 0 3px 3px;
+}
+
+.section_add_user > .form_user {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBox {
+    position: relative;
+    margin-top: 10px;
+}
+
+.iputUser {
+    background-color: none;
+    outline: none;
+    font-size: 17px;
+    color: #353D40;
+    width: 99.5%;
+    letter-spacing: 1px;
+    padding: 6px 0 4px 0;
+    border: 1px solid #F2B138;
+}
+
+.iputButton {
+    padding: 10px 0 10px 0;
+    font-size: 17px;
+    background-color: #F2B138;
+    color: white;
+    outline: none;
+    width: 16%;
+    cursor: pointer;
+    border-radius: 5px;
+    border: solid 1px white;
+}
+
+.btn-index {
+    display: block;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: #003F63;
+    width: 100px;
+    float: right;
+}
+
+.btn-index a {
+    color: white;
+    font-size: 17px;
+    padding: 10;
+}
+
+/* seção de alerta de cadastros dos produtos */
+.alert {
+    width: 600px;
+    max-width: 100%;
+    height: 30px;
+    background-color: transparent;
+    margin: 0 auto;
+    border-radius: 5px;
+}
+
+.alert p {
+    font-size: 20px;
+    color:rgb(255, 79, 79);
+    /* background-color: tomato; */
+    font-weight: 600;
+    text-align: center;
+    padding: 5px;
+}
+
+/* Página de visualizaão dos intes */
+.sectionHead {
+    width: 100%;
+    height: 110px;
+    background-color: #003F63;
+}
+
+.sectionHead h1 {
+    text-align: center;
+    padding-top: 30px;
+    color: #D9D9D9;
+}
+
+.section_show {
+    display: block;
+    margin: 0 auto;
+    width: 900px;
+    /* background-color: red; */
+}
+
+@media (max-width: 920px) {
+    .section_show {
+        width: 750px;
+    }
+}
+
+@media (max-width: 780px) {
+    .section_show {
+        width: 600px;
+    }
+}
+
+@media (max-width: 600px) {
+    .section_show {
+        width: 420px;
+    }
+}
+
+.btn_add-user {
+    background-color: #F2B138;
+    width: 200px;
+    margin: 20px 0 10px 0;
+    font-weight: 600;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.btn_add-user p {
+    font-size: 17px;
+    padding: 15px;
+}
+
+.btn_add-user p a {
+    color: #D9D9D9;
+}
+
+/* css da tabela */
+.table_list {
+    background-color: #A1A5A6;
+    width: 900px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+@media (max-width: 920px) {
+    .table_list {
+        width: 750px;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 780px) {
+    .table_list {
+        width: 600px;
+    }
+
+    .btn_add-user {
+        width: 170px;
+        margin: 15px 0 7px 0;
+    }
+
+    .btn_add-user p {
+        font-size: 12px;
+        padding: 10px;
+    }
+
+    .table_list th {
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+    .table_list td {
+        /* padding: 3px 3px 3px 10px; */
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 600px) {
+    .table_list {
+        width: 420px;
+    }
+
+    .table_list th {
+        padding: 10px;
+        font-size: 12px;
+    }
+    
+    .table_list td {
+        /* padding: 3px 3px 3px 10px; */
+        font-size: 10px;
+    }
+}
+
+.table_list {
+    border: solid 1px #353D40;
+}
+
+.table_list th {
+    background-color: #003F63;
+    padding: 15px;
+    color: #D9D9D9;
+    text-align: center;
+}
+
+.table_list td {
+    padding: 5px 5px 5px 15px;
+    color: #353D40;
+    text-align: left;
+}
+
+/* pega o 6 item da tabela td e colocar um background e um padding de 5px */
+.table_list td:nth-child(6) {
+    background-color: #0e9aba;
+    padding: 5px;
+}
+/* pegao o 6 elementos da tabela <td> e coloca uma cor na tag <a> */
+.table_list td:nth-child(6) a {
+    color: #D9D9D9;
+}
+/* pega o 6 elemento da tabela <td> e coloca um hover na tag <a> */
+.table_list td:nth-child(6) a:hover {
+    color: #F2B138;
+}
+
+/* pega a 7 item da tabela <td> e colocar um background de cor red e colocar 5px de padding*/
+.table_list td:nth-child(7) {
+    background-color: rgb(233, 52, 52);
+    padding: 5px;
+    color:#D9D9D9;
+}
+/* pegao o 7 elementos da tabela <td> e coloca uma cor na tag <a> */
+.table_list td:nth-child(7) a {
+    color: #D9D9D9;
+}
+/* pega o 6 elemento da tabela <td> e coloca um hover na tag <a> */
+.table_list td:nth-child(7) a:hover {
+    color: rgb(60, 57, 57);
+}
+
+/* even pega as colunas pares e add pega as colunas ímpares */
+.table_list tr:nth-child(even) {
+    background-color: #D9D9D9;
+}
+
+
